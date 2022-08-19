@@ -1,5 +1,6 @@
 # Algorithms-Questions-Solutions
-# Batuhan Tanrıverdi
-# Mulah Teni
-# Alper
-# Hasan Basri Uzun
+## Hasan Basri Uzun
+## Batuhan Tanrıverdi
+## Mulah Teni
+## Alper
+## Hasan Basri Uzun
