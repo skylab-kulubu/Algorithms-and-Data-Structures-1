@@ -1,6 +1,7 @@
 # Algorithms-Questions-Solutions
-## Hasan Basri Uzun
-## Batuhan Tanrıverdi
-## Mulah Teni
-## Alper Kalamanoğlu
-## Hasan Basri Uzun
+
+### Writers
+##### Batuhan Tanrıverdi
+##### Melih Tuna İpek
+##### Alper Kalamanoğlu
+##### Hasan Basri Uzun
