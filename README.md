@@ -2,6 +2,5 @@
 ## Hasan Basri Uzun
 ## Batuhan Tanrıverdi
 ## Mulah Teni
-## Alper
+## Alper Kalamanoğlu
 ## Hasan Basri Uzun
-# 34
