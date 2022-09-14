@@ -76,7 +76,7 @@ Okla gösterildiği yerden bu dosyayı düzenleyebilirsiniz.
 ### Visual Studiodan nasıl oluyormuş ona bakalım.
 1. Üst menü -> Terminal -> New Terminal
 2. Ardından Terminale 
-   ```console
+  ```console
   git clone [url]
   ```
   yazın.
