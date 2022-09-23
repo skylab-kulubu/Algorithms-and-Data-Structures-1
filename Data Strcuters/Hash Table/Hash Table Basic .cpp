@@ -16,6 +16,8 @@ int main(int argc, char const *argv[])
         {6,"Mercimek"},
     };
 
+
+
     cout << mp[1] << endl;
 
     //Add maps
@@ -26,7 +28,26 @@ int main(int argc, char const *argv[])
 
     //Erase
 
-    mp.erase(p1.first);
+   // mp.erase(p1.first);
+   // cout << mp[9] << endl;
+  //  mp.clear(); // remove everthing from the map
+
     cout << mp[9] << endl;
+    cout << mp.empty() << endl; // check the map empty. If the map empty return 1
+    cout << mp.size() << endl;  // Give a number of pairs that are in the map
+
+    // ITERATE
+
+    for(map<int,string>::iterator itr = mp.begin(); itr != mp.end(); ++itr){
+        cout << (*itr).second << endl;
+    }
+
+    
+
+
+
+
+
+
     return 0;
 }
