@@ -32,7 +32,7 @@ int main(int argc, char const *argv[])
     animal.push_front('o');
     animal.push_front('d');
     animal.push_back('l');
-    animal.push_back('u');
+    animal.push_back('u');  
     animal.push_back('k');
 
     for(auto x : animal){
