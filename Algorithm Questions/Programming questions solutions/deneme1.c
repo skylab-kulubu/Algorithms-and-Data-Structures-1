@@ -2,6 +2,7 @@
 
 int main(int argc, char const *argv[])
 {
-    printf("Hello New friends");
+    printf("hello");
+    printf("hello");
     return 0;
 }
