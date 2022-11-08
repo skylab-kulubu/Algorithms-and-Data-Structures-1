@@ -10,8 +10,7 @@ int main(void){//1 3 2 1 4
     }for(i=0 ; i<req ; i++){
         temp = arr[i];
         for(j = i+1 ; j<req ; j++){
-            if(temp == 
-            arr[j]){
+            if(temp == arr[j]){
                 printf("True.\n");
                 break;}
         }if(temp == arr[j])break;
