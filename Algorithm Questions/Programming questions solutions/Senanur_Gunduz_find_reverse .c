@@ -12,7 +12,7 @@ void f(int a){
 
     printf("%d \n", t);
 	 
-        return 0;	
+    	
 }
 
 int main(int argc, char *argv[]) {

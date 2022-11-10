@@ -1,10 +1,10 @@
-#include <iostream>
-#include <map>
-using namespace std;
+//Problem
+//https://leetcode.com/problems/longest-palindrome/
 
-int main(int argc, char const *argv[])
-{
-    string s = "ccc";
+class Solution {
+public:
+    int longestPalindrome(string s) {
+    
     int i, longest=0 ,tek=0 ,temp=0;
     map<char,int> s_map;
 
@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
     }
 
     for (auto it = s_map.begin() ; it != s_map.end(); ++it){
-       // if(it->second % 2==0){
+        //if(it->second % 2==0){
             temp=it->second;
             while(temp/2 != 0){
                 longest+=2;
@@ -25,7 +25,7 @@ int main(int argc, char const *argv[])
             tek++;
     }
     longest+=tek;
-    cout << longest;
-
-    return 0;
-}
+    return longest;
+        
+    }
+};
