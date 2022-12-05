@@ -12,6 +12,7 @@ int main(int argc, char const *argv[])
 
     cout << fib_memo(45) << endl;
     cout << fib(45);
+    
     return 0;
 }
 
@@ -38,3 +39,6 @@ int fib_memo(int num){
     (*memo)[num] = fib_me(num-1,memo) + fib_me(num-2,memo); 
     return (*memo)[num];
 }
+
+)
+
