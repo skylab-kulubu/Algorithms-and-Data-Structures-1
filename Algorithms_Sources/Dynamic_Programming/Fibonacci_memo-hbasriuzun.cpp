@@ -22,13 +22,16 @@ int fib_me(int num, map<int,int> *memo){
         return (*memo)[num];
     
     if (num <= 2) return 1;
+    
     (*memo)[num] = fib_me(num-1,memo) + fib_me(num-2,memo); 
     return (*memo)[num];
 }
+
 int fib(int num){
     if (num <= 2) return 1;
     return fib(num-1) + fib(num-2); 
 }
+
 int fib_memo(int num){
     map<int,int> *memo = new map<int,int>;
     int num2;
@@ -40,5 +43,5 @@ int fib_memo(int num){
     return (*memo)[num];
 }
 
-)
+
 
