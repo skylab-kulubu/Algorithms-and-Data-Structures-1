@@ -1,14 +1,7 @@
-#include <stdio.h>
+#include <iostream>
 
-int main(int argc, char const *argv[])
+int main()
 {
-    long long sum=0  ,n=10;
-    
-    for( int i=1; i<=n; i++ )
-        for(int j=i; j<=n; j++ )
-            for(int k = i; k<=j; k++ )
-                sum += 1;
-    
-    printf("%d",sum);
+    std::cout << "Hello World" << std::endl;
     return 0;
 }
