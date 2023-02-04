@@ -1,4 +1,4 @@
-Question 
+## Question 
 
 The game of Pig is a simple two player dice game in which the first player to
 reach 100 or more points wins. Players take turns. On each turn a player rolls a
