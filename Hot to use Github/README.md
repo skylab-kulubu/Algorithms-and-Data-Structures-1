@@ -18,8 +18,11 @@ Dosyalarınızı yönetmenizi, düzenlemenizi, geçmişini görmenizi sağlayan 
   - Herhangi bir metin belgesine kod yazabilirsiniz fakar bu oldukça zor olacaktır. Kod yazmak için içinde birçok araç olan özel tasarımlı uygulamalar vardır. Biz bunlara kod düzenleyici diyoruz.
 - **Repository -> Projelerinin beya kodlarının saklandığı bir yer, _kütüphane_**
 - **Github -> Kütüphanelerinin çevrimiçi saklayabileceğin bir website**
+## Git Komutları Kısa
+- **diff -> 2 versiyon arasındaki farkları görmek için kullanırız. (difference = fark)
 
-## Git Komutları
+
+## Git Komutları Detaylı
 - **clone -> Bu komut, mevcut bir URL'den bir havuz elde etmek için kullanılır.**
 - ```console
   git clone [url]
