@@ -20,7 +20,7 @@ Dosyalarınızı yönetmenizi, düzenlemenizi, geçmişini görmenizi sağlayan 
 - **Github -> Kütüphanelerinin çevrimiçi saklayabileceğin bir website**
 ## Git Komutları Kısa
 - **diff -> 2 versiyon arasındaki farkları görmek için kullanırız. (difference = fark)
-
+- 
 
 ## Git Komutları Detaylı
 - **clone -> Bu komut, mevcut bir URL'den bir havuz elde etmek için kullanılır.**
@@ -29,11 +29,13 @@ Dosyalarınızı yönetmenizi, düzenlemenizi, geçmişini görmenizi sağlayan 
   ```
 -  ![Git clone](https://linuxteaching.com/storage/img/images_4/git_clone_ssh.png)
 
-- **add -> Bir dosyada değişiklik yaptığınız zaman izlemek istediğinizi söylemek için kullanılır.**
+- **add -> Bir dosyada değişiklik yaptığınız zaman izlemek istediğinizi söylemek için kullanılır. Staging area'ya ekler.**
+  - Staging area:  Git adlı bir versiyon kontrol sistemine ait bir kavramdır ve bu sistemdeki değişiklikleri kaydetmek ve yönetmek için kullanılır. Git, yazılım geliştirme sürecinde kullanılan birçok farklı dosya ve değişiklik kaydeder ve bu değişikliklerin tümünü birden kaydetmek yerine, bunları adım adım ve parça parça kaydeder. 
+
 - ```console
-  git add [dosya-adi]
+  git add [dosya-adi] 
   ```
- -  ![Git add](https://www.arubacloud.com/getattachment/Tutorials/List-of-Tutorial/January-2020/Installation-and-first-steps-with-Git/image3.png.aspx;)
+ -  ![Git add](https://i.hizliresim.com/g03r8qd.jpg)
  
  - **commit -> Bu komut, dosyayı sürüm geçmişinde kalıcı olarak kaydeder veya anlık görüntüler.**
 - ```console
