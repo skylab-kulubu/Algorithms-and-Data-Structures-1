@@ -19,8 +19,13 @@ Dosyalarınızı yönetmenizi, düzenlemenizi, geçmişini görmenizi sağlayan 
 - **Repository -> Projelerinin beya kodlarının saklandığı bir yer, _kütüphane_**
 - **Github -> Kütüphanelerinin çevrimiçi saklayabileceğin bir website**
 ## Git Komutları Kısa
-- **diff -> 2 versiyon arasındaki farkları görmek için kullanırız. (difference = fark)
+- **diff -> 2 versiyon arasındaki farkları görmek için kullanırız. (difference = fark)**
+- **git log -p -> 
+- **git show ->
+- **git log --stat -> 
 
+- **git rm [dosya ismi] -> 
+- **git mv [dosya ismi] ->  
 
 ## Git Komutları Detaylı
 - **clone -> Bu komut, mevcut bir URL'den bir havuz elde etmek için kullanılır.**
