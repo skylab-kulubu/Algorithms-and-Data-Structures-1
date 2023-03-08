@@ -1,8 +1,1 @@
-# Algorithms-Questions-Solutions
-
-### Writers
-##### Batuhan Tanrıverdi
-##### Melih Tuna İpek
-##### Alper Kalamanoğlu
-##### Hasan Basri Uzun
-##### Burcu Taş
+# Algorithms and Data Structers Sources 
