@@ -1,0 +1,109 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+class Pizza
+{ public:
+    
+    void topping();
+    void outDecription();
+    int computePrice();
+    int getSize();
+    int getType();
+    int getchesse();
+    int getPereroni();
+	int type;
+    int size;
+    int price =0;
+    
+  private:
+  	int chesse;
+    int peperoni;
+};
+
+int main(int argc, char** argv) {
+	Pizza pizza;
+	
+	cout << "size of pizza" << endl << "press 1 for large"<< endl << "press 2 for medium"<< endl<< "press 3 for small"<< endl<< "your choice:" ;
+	cin >> pizza.size;
+	cout << "type of pizza" << endl << "press 1 for hand tossed"<< endl << "press 2 for tossed"<< endl<< "press 3 for pan "<< endl<< "your choice:" ;
+	cin >> pizza.type;
+	
+	pizza.topping();
+	pizza.outDecription();
+	pizza.computePrice();
+	
+	cout<< endl;
+	cout<< "price of the order: " << pizza.price;
+	
+	return 0;
+}
+
+int Pizza :: getSize(){
+	return size;
+}
+
+int Pizza :: getType(){
+	return type;
+}
+
+int Pizza :: getchesse(){
+	return chesse;
+}
+
+int Pizza :: getPereroni() {
+	return peperoni;
+}
+
+void Pizza::topping(){
+	cout<< "how many Peperoni :";
+	cin >> peperoni;
+	cout<< endl << "how many chesse : ";
+	cin >> chesse;
+	cout<< endl;
+	
+}
+
+
+
+void Pizza::outDecription(){
+	int a;
+	a= 10*getSize() + getType();
+	switch (a)
+	{
+	    case 11: 
+	        cout << "large deep dish with "<< getchesse() << " cheese toppings and " << getPereroni() << " pepperoni toppings" ; break;
+        case 12:
+            cout << "large hand tossed  with " <<getchesse() << " cheese toppings and " << getPereroni() << " pepperoni toppings"; break;
+		case 13:
+            cout << "large pan with "<< getchesse() << " cheese toppings and " << getPereroni() << " pepperoni toppings"; break;
+        case 21:
+		    cout << "medium deep dish with "<<getchesse() << " cheese toppings and " << getPereroni() << " pepperoni toppings"; break;
+        case 22:
+            cout << "medium hand tossed with "<< getchesse() << " cheese toppings and " << getPereroni() << " pepperoni toppings"; break;   
+        case 23:
+            cout << "medium pan with "<< getchesse() << " cheese toppings and " << getPereroni() << " pepperoni toppings"; break;
+        case 31:
+            cout << "small deep dish with "<< getchesse() << " cheese toppings and " << getPereroni() << " pepperoni toppings"; break;
+        case 32:
+            cout << "small hand tossed with "<< getchesse() << " cheese toppings and " << getPereroni() << " pepperoni toppings"; break;
+        case 33:
+            cout << "small pan with "<< getchesse() << " cheese toppings and " << getPereroni() << " pepperoni toppings"; break;
+        default:
+        cout << "Error in Pizza::outDecription.";
+	
+}
+}
+	
+int Pizza :: computePrice(){
+	if( getSize() == 1){
+		price = 17 + (2 * (getchesse() + getPereroni()));
+	}
+	else if( getSize() == 2){
+		price = 14 + (2 * (getchesse() + getPereroni()));
+	}
+	else if ( getSize() == 3){
+		price = 10 + (2 * (getchesse() + getPereroni()));
+	}
+	return price;
+}
